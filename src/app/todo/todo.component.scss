@@ -1,0 +1,47 @@
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-item .title {
+    flex: 1;
+  }
+  
+  .todo-item .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .delete-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  
+  .complete-button {
+    background-color: #32cd32;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
